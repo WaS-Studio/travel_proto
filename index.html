@@ -1,0 +1,971 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Travel Prototype</title>
+		<!-- Font family -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- BOOTSTRAP GRID CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<!-- GLDE SLIDER -->
+		<link rel="stylesheet" href="assets/css/glide.core.min.css" />
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body> 
+		<!-- HEADER -->
+		<section class="_hdr_drm_trvl_sec">
+
+			<!-- MENU -->
+			<nav class="navbar navbar-expand-lg navbar-light">
+			    <div class="container">
+				    <div class="_drm_trvl_logo_mbl">
+				    	<a class="navbar-brand" href="#">
+				    		<img src="assets/img/trvl_agncy_logo.svg" alt="image">
+				    	</a>
+				    </div>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse _drm_trvl_menu" id="navbarTogglerDemo02">
+					    <div class="_drm_trvl_logo _drm_trvl_logo_dsktp">
+					    	<a class="navbar-brand" href="#">
+				    			<img src="assets/img/trvl_agncy_logo.svg" alt="image">
+				    		</a>
+					    </div>
+					    <div class="_drm_trvl_mdl">
+					    	<ul class="_drm_trvl_mdl_ul">
+					    		<li class="_drm_trvl_mdl_ul_li">
+						          <a href="#" class="_drm_trvl_mnu_txt">FIND A TRIP</a>
+						        </li>
+						        <li class="_drm_trvl_mdl_ul_li">
+						          <a href="#" class="_drm_trvl_mnu_txt">DESTINATIONS</a>
+						        </li>
+						        <li class="_drm_trvl_mdl_ul_li">
+						          <a href="#" class="_drm_trvl_mnu_txt">WHY BESNIK</a>
+						        </li>
+						        <li class="_drm_trvl_mdl_ul_li">
+						          <a href="#" class="_drm_trvl_mnu_txt">CONTACT</a>
+						        </li>
+						    </ul>
+					    </div>
+					    <div class="_drm_trvl_r8_menu">
+					    	<ul class="_drm_trvl_r8_menu_ul">
+					    	  	<li>
+					    	  		<a href="" class="_drm_trvl_menu_btn2">
+					    	  			Create Account
+					    	  		</a>
+					    	  	</li>
+					    	</ul>
+					    </div>
+				    </div>
+			    </div>
+			</nav>
+			<!-- MENU -->
+			<div class="_hdr_drm_trvl_inr">
+				<div class="container">
+					<div class="_hdr_drm_trvl_top">
+						<h1 class="_hdr_drm_trvl_h1">
+							Exploring The World In Comfort.
+						</h1>
+						<p class="_hdr_drm_trvl_txt">
+							You do not have the right to remain silent… let us know what it takes to challenge you
+						</p>
+					</div>
+					<div class="_hdr_drm_trvl_srch_box">
+						<div class="_hdr_drm_trvl_inpt_grp">
+							<div class="_hdr_drm_trvl_inpt_1">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+								  <path fill="#AFAEB4" d="M15.488 14.573l-3.808-3.96a6.44 6.44 0 001.515-4.153A6.467 6.467 0 006.735 0a6.467 6.467 0 00-6.46 6.46 6.467 6.467 0 006.46 6.46 6.39 6.39 0 003.701-1.169l3.837 3.99c.16.167.376.259.608.259a.844.844 0 00.607-1.427zM6.735 1.685A4.78 4.78 0 0111.51 6.46a4.78 4.78 0 01-4.775 4.775A4.78 4.78 0 011.961 6.46a4.78 4.78 0 014.774-4.775z"/>
+								</svg>
+								<input type="text" placeholder="Search destination">
+							</div>
+							<div class="_hdr_drm_trvl_inpt_2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+								  <path fill="#AFAEB4" d="M13.31 2.782A6.37 6.37 0 008 0a6.37 6.37 0 00-5.31 2.782C1.473 4.54 1.192 6.768 1.936 8.735c.199.537.515 1.06.938 1.548l4.7 5.52a.56.56 0 00.85 0l4.699-5.518c.424-.492.74-1.014.938-1.547a6.463 6.463 0 00-.751-5.956zm-.296 5.565a3.989 3.989 0 01-.74 1.211L8 14.578 3.724 9.555a3.993 3.993 0 01-.74-1.212 5.345 5.345 0 01.626-4.925A5.266 5.266 0 018 1.118c1.78 0 3.38.839 4.39 2.3a5.345 5.345 0 01.624 4.929z"/>
+								  <path fill="#AFAEB4" d="M8 3.32a3.136 3.136 0 00-3.132 3.132A3.136 3.136 0 008 9.585a3.136 3.136 0 003.133-3.133A3.137 3.137 0 008 3.32zm0 5.146a2.016 2.016 0 01-2.014-2.014c0-1.11.904-2.014 2.014-2.014 1.11 0 2.014.904 2.014 2.014 0 1.11-.903 2.014-2.014 2.014z"/>
+								</svg>
+								<input type="text" placeholder="C. Location">
+							</div>
+							<div class="_hdr_drm_trvl_inpt_3">
+								<p class="dropdown-toggle _hdr_drm_trvl_inpt_p" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									2 Person
+								</p>
+								<ul class="dropdown-menu _drpdwn" aria-labelledby="navbarDropdown">
+						            <li><a class="dropdown-item" href="#">5 Person</a></li>
+						            <li><a class="dropdown-item" href="#">7 Person</a></li>
+						            
+						            <li><a class="dropdown-item" href="#">9 Person</a></li>
+						          </ul>
+
+								<svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="none" viewBox="0 0 9 9">
+								  <path fill="#BCBCBC" d="M0 2.25l4.5 4.5L9 2.25H0z"/>
+								</svg>
+							</div>
+						</div>
+						<div class="_hdr_drm_trvl_srch_btn_all">
+							<button class="_hdr_drm_trvl_srch_btn">
+								Search
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- HEADER -->
+
+		<!-- WORK STATION -->
+		<section class="_wrk_drm_trvl_sec">
+			<div class="container">
+				<div class="_wrk_drm_trvl_top">
+					<h1 class="_wrk_drm_trvl_tp_h1">
+						We Provide Best
+					</h1>
+					<p class="_wrk_drm_trvl_tp_txt">
+						Take high quality online courses from the best online instrictors around the world & develop your skills.
+					</p>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-4 _wrk_drm_trvl_main">
+						<div class="_wrk_drm_trvl_crd">
+							<div class="_wrk_drm_trvl_crd_inr">
+								<div class="_wrk_drm_trvl_box">
+									<img src="assets/img/trvl_agncy1.svg" alt="image">
+								</div>
+								<h2 class="_wrk_drm_trvl_h2">
+									Select Destination
+								</h2>
+								<p class="_wrk_drm_trvl_crd_txt">
+									At first choose the place you wanted to go
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-4 _wrk_drm_trvl_main">
+						<div class="_wrk_drm_trvl_crd">
+							<div class="_wrk_drm_trvl_crd_inr">
+								<div class="_wrk_drm_trvl_box">
+									<img src="assets/img/trvl_agncy2.svg" alt="image">
+								</div>
+								<h2 class="_wrk_drm_trvl_h2">
+									Book a Trip
+								</h2>
+								<p class="_wrk_drm_trvl_crd_txt">
+									book your tip form our exclusive offers
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-4 _wrk_drm_trvl_main">
+						<div class="_wrk_drm_trvl_crd">
+							<div class="_wrk_drm_trvl_crd_inr">
+								<div class="_wrk_drm_trvl_box">
+									<img src="assets/img/trvl_agncy3.svg" alt="image">
+								</div>
+								<h2 class="_wrk_drm_trvl_h2">
+									Take your flight
+								</h2>
+								<p class="_wrk_drm_trvl_crd_txt">
+									Take your flight on selected date and joy
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- WORK STATION -->
+
+			<!-- ABOUT US -->
+		<section class="_abt_drm_trvl_sec">
+			<div class="container">
+				<div class="_abt_drm_trvl_top">
+					<div class="_abt_drm_trvl_top_lft">
+						<p class="_abt_drm_trvl_top_lft_p">
+							ABOUT US
+						</p>
+						<h1 class="_abt_drm_trvl_top_lft_h1">
+							Explore all corners of the world with us.
+						</h1>
+					</div>
+					<div class="_abt_drm_trvl_top_r8">
+						<p class="_abt_drm_trvl_top_r8_p">
+							These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series of focus groups comprising of parents.
+						</p>
+					</div>
+				</div>
+				<div class="_about_slider">
+					<div class="glide__track" data-glide-el="track">
+						<div class="_abt_drm_trvl_crd_all glide__slides">
+							<div class="_abt_drm_trvl_crd _active glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy17.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Nanjing, China
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+		
+							<div class="_abt_drm_trvl_crd  glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy18.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Tokyo, Japan
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+		
+							<div class="_abt_drm_trvl_crd glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy19.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Nanjing, Singapore
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+							<div class="_abt_drm_trvl_crd _active glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy17.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Dhaka, Bangladesh
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+		
+							<div class="_abt_drm_trvl_crd  glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy18.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Nanjing, China
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+		
+							<div class="_abt_drm_trvl_crd glide__slide">
+								<div class="_abt_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy19.svg" alt="image">
+								</div>
+								<div class="_abt_drm_trvl_crd_btm">
+									<div class="_abt_drm_trvl_crd_btm_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="28" height="23" fill="none" viewBox="0 0 28 23">
+										  <path fill="#000" d="M16.813 19.828c1.146 1.835 2.838 2.752 5.074 2.752 1.547 0 2.837-.516 3.87-1.548 1.089-1.09 1.633-2.408 1.633-3.956 0-1.662-.544-2.981-1.634-3.956-1.032-1.032-2.322-1.548-3.87-1.548-1.203 0-2.264.373-3.181 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.63-3.296 1.892-4.902 1.318-1.605 2.866-2.78 4.644-3.526L24.209.908c-2.982 1.376-5.218 3.21-6.709 5.504-1.433 2.294-2.15 4.874-2.15 7.74 0 2.236.488 4.128 1.463 5.676zM2.192 19.828C3.34 21.663 5.03 22.58 7.266 22.58c1.548 0 2.838-.516 3.87-1.548 1.09-1.09 1.635-2.408 1.635-3.956 0-1.662-.545-2.981-1.635-3.956-1.031-1.032-2.322-1.548-3.87-1.548-1.204 0-2.264.373-3.182 1.118-.172-.516-.258-1.118-.258-1.806 0-1.662.631-3.296 1.892-4.902 1.32-1.605 2.867-2.78 4.645-3.526L9.588.908c-2.98 1.376-5.217 3.21-6.708 5.504C1.447 8.706.73 11.286.73 14.152c0 2.236.488 4.128 1.462 5.676z"/>
+										</svg>
+									</div>
+									<h2 class="_abt_drm_trvl_crd_h2">
+										Nanjing, China
+									</h2>
+									<p class="_abt_drm_trvl_crd_txt">
+										These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="_abt_drm_trvl_crd_arow">
+						<div class="glide__arrows" data-glide-el="controls">
+							<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+									<path fill="#152137" fill-rule="evenodd" d="M5.243 11.803L.47 7.03a.75.75 0 010-1.06l4.773-4.773a.75.75 0 111.06 1.06L2.811 5.75H14a.75.75 0 010 1.5H2.81l3.493 3.493a.75.75 0 01-1.06 1.06z" clip-rule="evenodd"></path>
+								</svg>
+							</button>
+							<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+									<path fill="#152137" fill-rule="evenodd" d="M9.757 11.803L14.53 7.03a.75.75 0 000-1.06L9.757 1.197a.75.75 0 10-1.06 1.06l3.492 3.493H1a.75.75 0 100 1.5h11.19l-3.493 3.493a.75.75 0 001.06 1.06z" clip-rule="evenodd"></path>
+								</svg>
+							</button>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ABOUT US -->
+
+		<!-- FEATURE -->
+		<section class="_ftre_drm_trvl_sec">
+			<div class="container">
+				<div class="_ftre_drm_trvl_top">
+					<h1 class="_ftre_drm_trvl_tp_h1">
+						Featured Tour Places
+					</h1>
+					<p class="_ftre_drm_trvl_tp_txt">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+					</p>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 _ftre_drm_trvl_main">
+						<div class="_ftre_drm_trvl_crd">
+							<div class="_ftre_drm_trvl_crd_inr">
+								<div class="_ftre_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy4.svg" alt="image">
+								</div>
+								<div class="_ftre_drm_trvl_crd_btm">
+									<h2 class="_ftre_drm_trvl_crd_h2">
+										Spain Places
+									</h2>
+									<ul class="_ftre_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+											  <g clip-path="url(#clip0)">
+											    <path fill="#7C8290" d="M14.316 4.21a.667.667 0 00-.31.89A6.674 6.674 0 018 14.666 6.674 6.674 0 011.334 8 6.674 6.674 0 018 1.333c1.523 0 2.954.498 4.139 1.439a.667.667 0 10.83-1.044A8.013 8.013 0 008 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8a7.918 7.918 0 00-.793-3.48.666.666 0 00-.89-.31z"/>
+											    <path fill="#7C8290" d="M8 2.667a.667.667 0 00-.667.666V8c0 .368.299.667.667.667h3.333a.667.667 0 000-1.334H8.666v-4A.667.667 0 008 2.667z"/>
+											  </g>
+											  <defs>
+											    <clipPath id="clip0">
+											      <path fill="#fff" d="M0 0h16v16H0z"/>
+											    </clipPath>
+											  </defs>
+											</svg>
+											7 Days/6 Nights
+										</li>
+										<li>
+											$544.00
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 _ftre_drm_trvl_main">
+						<div class="_ftre_drm_trvl_crd">
+							<div class="_ftre_drm_trvl_crd_inr">
+								<div class="_ftre_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy5.svg" alt="image">
+								</div>
+								<div class="_ftre_drm_trvl_crd_btm">
+									<h2 class="_ftre_drm_trvl_crd_h2">
+										Japa Places
+									</h2>
+									<ul class="_ftre_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+											  <g clip-path="url(#clip0)">
+											    <path fill="#7C8290" d="M14.316 4.21a.667.667 0 00-.31.89A6.674 6.674 0 018 14.666 6.674 6.674 0 011.334 8 6.674 6.674 0 018 1.333c1.523 0 2.954.498 4.139 1.439a.667.667 0 10.83-1.044A8.013 8.013 0 008 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8a7.918 7.918 0 00-.793-3.48.666.666 0 00-.89-.31z"/>
+											    <path fill="#7C8290" d="M8 2.667a.667.667 0 00-.667.666V8c0 .368.299.667.667.667h3.333a.667.667 0 000-1.334H8.666v-4A.667.667 0 008 2.667z"/>
+											  </g>
+											  <defs>
+											    <clipPath id="clip0">
+											      <path fill="#fff" d="M0 0h16v16H0z"/>
+											    </clipPath>
+											  </defs>
+											</svg>
+											7 Days/6 Nights
+										</li>
+										<li>
+											$544.00
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 _ftre_drm_trvl_main">
+						<div class="_ftre_drm_trvl_crd">
+							<div class="_ftre_drm_trvl_crd_inr">
+								<div class="_ftre_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy6.svg" alt="image">
+								</div>
+								<div class="_ftre_drm_trvl_crd_btm">
+									<h2 class="_ftre_drm_trvl_crd_h2">
+										London Places
+									</h2>
+									<ul class="_ftre_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+											  <g clip-path="url(#clip0)">
+											    <path fill="#7C8290" d="M14.316 4.21a.667.667 0 00-.31.89A6.674 6.674 0 018 14.666 6.674 6.674 0 011.334 8 6.674 6.674 0 018 1.333c1.523 0 2.954.498 4.139 1.439a.667.667 0 10.83-1.044A8.013 8.013 0 008 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8a7.918 7.918 0 00-.793-3.48.666.666 0 00-.89-.31z"/>
+											    <path fill="#7C8290" d="M8 2.667a.667.667 0 00-.667.666V8c0 .368.299.667.667.667h3.333a.667.667 0 000-1.334H8.666v-4A.667.667 0 008 2.667z"/>
+											  </g>
+											  <defs>
+											    <clipPath id="clip0">
+											      <path fill="#fff" d="M0 0h16v16H0z"/>
+											    </clipPath>
+											  </defs>
+											</svg>
+											7 Days/6 Nights
+										</li>
+										<li>
+											$544.00
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 _ftre_drm_trvl_main">
+						<div class="_ftre_drm_trvl_crd">
+							<div class="_ftre_drm_trvl_crd_inr">
+								<div class="_ftre_drm_trvl_crd_top">
+									<img src="assets/img/trvl_agncy7.svg" alt="image">
+								</div>
+								<div class="_ftre_drm_trvl_crd_btm">
+									<h2 class="_ftre_drm_trvl_crd_h2">
+										Canada Places
+									</h2>
+									<ul class="_ftre_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+											  <g clip-path="url(#clip0)">
+											    <path fill="#7C8290" d="M14.316 4.21a.667.667 0 00-.31.89A6.674 6.674 0 018 14.666 6.674 6.674 0 011.334 8 6.674 6.674 0 018 1.333c1.523 0 2.954.498 4.139 1.439a.667.667 0 10.83-1.044A8.013 8.013 0 008 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8a7.918 7.918 0 00-.793-3.48.666.666 0 00-.89-.31z"/>
+											    <path fill="#7C8290" d="M8 2.667a.667.667 0 00-.667.666V8c0 .368.299.667.667.667h3.333a.667.667 0 000-1.334H8.666v-4A.667.667 0 008 2.667z"/>
+											  </g>
+											  <defs>
+											    <clipPath id="clip0">
+											      <path fill="#fff" d="M0 0h16v16H0z"/>
+											    </clipPath>
+											  </defs>
+											</svg>
+											7 Days/6 Nights
+										</li>
+										<li>
+											$544.00
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FEATURE -->
+
+		<!-- PARTNER -->
+		<section class="_prtnr_drm_trvl_sec">
+			<div class="container">
+				<div class="_prtnr_drm_trvl_top">
+					<h1 class="_prtnr_drm_trvl_tp_h1">
+						Featured Tour Places
+					</h1>
+					<p class="_prtnr_drm_trvl_tp_txt">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+					</p>
+				</div>
+				<ul class="_prtnr_drm_trvl_ul">
+					<li>
+						<img src="assets/img/trvl_agncy8.svg" alt="image">
+					</li>
+					<li>
+						<img src="assets/img/trvl_agncy9.svg" alt="image">
+					</li>
+					<li>
+						<img src="assets/img/trvl_agncy10.svg" alt="image">
+					</li>
+					<li>
+						<img src="assets/img/trvl_agncy11.svg" alt="image">
+					</li>
+					<li>
+						<img src="assets/img/trvl_agncy12.svg" alt="image">
+					</li>
+					<li>
+						<img src="assets/img/trvl_agncy13.svg" alt="image">
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- PARTNER END -->
+
+		<!-- CITIES -->
+		<section class="_cities_drm_trvl_sec">
+			<div class="container glide">
+				<div class="_cities_drm_trvl_top">
+					<div class="_cities_drm_trvl_top_lft">
+						<p class="_cities_drm_trvl_top_p">
+							TOP CITYS 
+						</p>
+						<h2 class="_cities_drm_trvl_top_h2">
+							Our popular cities
+						</h2>
+						<p class="_cities_drm_trvl_top_txt">
+							We’re a team of humans with the strategy, tools, and solutions and digital products.
+						</p>
+					</div>
+					<div class="_cities_drm_trvl_top_r8">
+						<ul class="_cities_drm_trvl_top_ul glide__arrows" data-glide-el="controls">
+							<li class="glide__arrow glide__arrow--left" data-glide-dir="<">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+								  <path fill="#152137" fill-rule="evenodd" d="M5.243 11.803L.47 7.03a.75.75 0 010-1.06l4.773-4.773a.75.75 0 111.06 1.06L2.811 5.75H14a.75.75 0 010 1.5H2.81l3.493 3.493a.75.75 0 01-1.06 1.06z" clip-rule="evenodd"/>
+								</svg>
+							</li>
+							<li class="glide__arrow glide__arrow--right" data-glide-dir=">">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+								  <path fill="#152137" fill-rule="evenodd" d="M9.757 11.803L14.53 7.03a.75.75 0 000-1.06L9.757 1.197a.75.75 0 10-1.06 1.06l3.492 3.493H1a.75.75 0 100 1.5h11.19l-3.493 3.493a.75.75 0 001.06 1.06z" clip-rule="evenodd"/>
+								</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+				 <div class="glide__track" data-glide-el="track">
+					<div class="row justify-content-center glide__slides">
+						<div class="col-12 col-md-6 col-lg-4 col-xl-4 _cities_drm_trvl_main">
+							<div class="_cities_drm_trvl_crd glide__slide">
+								<div class="_cities_drm_trvl_crd_inr">
+									<div class="_cities_drm_trvl_crd_img">
+										<img src="assets/img/trvl_agncy14.svg" alt="image">
+									</div>
+									<div class="_cities_drm_trvl_crd_info">
+										<div class="_cities_drm_trvl_info_top">
+											<p class="_cities_drm_trvl_crd_info_p">
+												Japan
+											</p>
+										</div>
+										<div class="_cities_drm_trvl_info_btm">
+											<h2 class="_cities_drm_trvl_info_h2">
+												Japan
+											</h2>
+											<p class="_cities_drm_trvl_crd_info_p2">
+												10 Popular Places
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4 col-xl-4 _cities_drm_trvl_main">
+							<div class="_cities_drm_trvl_crd glide__slide">
+								<div class="_cities_drm_trvl_crd_inr">
+									<div class="_cities_drm_trvl_crd_img">
+										<img src="assets/img/trvl_agncy15.svg" alt="image">
+									</div>
+									<div class="_cities_drm_trvl_crd_info">
+										<div class="_cities_drm_trvl_info_top">
+											<p class="_cities_drm_trvl_crd_info_p">
+												Indonesia
+											</p>
+										</div>
+										<div class="_cities_drm_trvl_info_btm">
+											<h2 class="_cities_drm_trvl_info_h2">
+												Bali
+											</h2>
+											<p class="_cities_drm_trvl_crd_info_p2">
+												10 Popular Places
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4 col-xl-4 _cities_drm_trvl_main">
+							<div class="_cities_drm_trvl_crd glide__slide">
+								<div class="_cities_drm_trvl_crd_inr">
+									<div class="_cities_drm_trvl_crd_img">
+										<img src="assets/img/trvl_agncy16.svg" alt="image">
+									</div>
+									<div class="_cities_drm_trvl_crd_info">
+										<div class="_cities_drm_trvl_info_top">
+											<p class="_cities_drm_trvl_crd_info_p">
+												Barcelona
+											</p>
+										</div>
+										<div class="_cities_drm_trvl_info_btm">
+											<h2 class="_cities_drm_trvl_info_h2">
+												Spain
+											</h2>
+											<p class="_cities_drm_trvl_crd_info_p2">
+												10 Popular Places
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CITIES END -->
+
+		<!-- CLIENT SLIDER -->
+		<section class="_clnt_sldr_drm_trvl_sec glide2">
+			<div class="container">
+				<div class="_clnt_sldr_drm_trvl_top">
+					<div class="_clnt_sldr_drm_trvl_top_lft">
+						<p class="_clnt_sldr_drm_trvl_top_p">
+							TESTIMONIALS
+						</p>
+						<h2 class="_clnt_sldr_drm_trvl_top_h2">
+							What our client say
+						</h2>
+						<p class="_clnt_sldr_drm_trvl_top_txt">
+							Create a visual identity for your company, and an overall brand
+						</p>
+					</div>
+					<div class="_clnt_sldr_drm_trvl_top_r8">
+						<ul class="_clnt_sldr_drm_trvl_top_ul glide__arrows" data-glide-el="controls">
+							<li class="glide__arrow glide__arrow--left" data-glide-dir="<">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+								  <path fill="#152137" fill-rule="evenodd" d="M5.243 11.803L.47 7.03a.75.75 0 010-1.06l4.773-4.773a.75.75 0 111.06 1.06L2.811 5.75H14a.75.75 0 010 1.5H2.81l3.493 3.493a.75.75 0 01-1.06 1.06z" clip-rule="evenodd"/>
+								</svg>
+							</li>
+							<li class="glide__arrow glide__arrow--right" data-glide-dir=">">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="none" viewBox="0 0 15 13">
+								  <path fill="#152137" fill-rule="evenodd" d="M9.757 11.803L14.53 7.03a.75.75 0 000-1.06L9.757 1.197a.75.75 0 10-1.06 1.06l3.492 3.493H1a.75.75 0 100 1.5h11.19l-3.493 3.493a.75.75 0 001.06 1.06z" clip-rule="evenodd"/>
+								</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+				 <div class="glide__track" data-glide-el="track">
+					<div class="_clnt_sldr_drm_trvl_main_all glide__slides">
+						<div class="_clnt_sldr_drm_trvl_main">
+							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
+								<div class="_clnt_sldr_drm_trvl_inr">
+									<div class="_clnt_sldr_drm_trvl_crd_top_all">
+										<div class="_clnt_sldr_drm_trvl_crd_top">
+											<img src="assets/img/man1.png" >
+										</div>
+										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
+											Rowhan Doe
+										</h2>
+										<p class="_clnt_sldr_drm_trvl_crd_p1">
+											Product designer
+										</p>
+									</div>
+									<ul class="_clnt_sldr_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+									</ul>
+									<p class="_clnt_sldr_drm_trvl_crd_txt">
+										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="_clnt_sldr_drm_trvl_main">
+							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
+								<div class="_clnt_sldr_drm_trvl_inr">
+									<div class="_clnt_sldr_drm_trvl_crd_top_all">
+										<div class="_clnt_sldr_drm_trvl_crd_top">
+											<img src="assets/img/man2.png">
+										</div>
+										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
+											John Smith
+										</h2>
+										<p class="_clnt_sldr_drm_trvl_crd_p1">
+											Product designer
+										</p>
+									</div>
+									<ul class="_clnt_sldr_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+									</ul>
+									<p class="_clnt_sldr_drm_trvl_crd_txt">
+										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="_clnt_sldr_drm_trvl_main">
+							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
+								<div class="_clnt_sldr_drm_trvl_inr">
+									<div class="_clnt_sldr_drm_trvl_crd_top_all">
+										<div class="_clnt_sldr_drm_trvl_crd_top">
+											<img src="assets/img/man3.png">
+										</div>
+										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
+											Sayem Ahmed
+										</h2>
+										<p class="_clnt_sldr_drm_trvl_crd_p1">
+											Product designer
+										</p>
+									</div>
+									<ul class="_clnt_sldr_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+									</ul>
+									<p class="_clnt_sldr_drm_trvl_crd_txt">
+										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="_clnt_sldr_drm_trvl_main">
+							<div class="_clnt_sldr_drm_trvl_crd glide__slide">
+								<div class="_clnt_sldr_drm_trvl_inr">
+									<div class="_clnt_sldr_drm_trvl_crd_top_all">
+										<div class="_clnt_sldr_drm_trvl_crd_top">
+											<img src="assets/img/man2.png">
+										</div>
+										<h2 class="_clnt_sldr_drm_trvl_crd_h2">
+											John Smith
+										</h2>
+										<p class="_clnt_sldr_drm_trvl_crd_p1">
+											Product designer
+										</p>
+									</div>
+									<ul class="_clnt_sldr_drm_trvl_crd_ul">
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+										<li>
+											<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none" viewBox="0 0 17 15">
+											  <path fill="#FAB33F" d="M8.4 0l2.022 5.217 5.587.31-4.337 3.536 1.43 5.41L8.4 11.44l-4.702 3.032 1.43-5.409L.793 5.528l5.586-.311L8.4 0z"/>
+											</svg>
+										</li>
+									</ul>
+									<p class="_clnt_sldr_drm_trvl_crd_txt">
+										Before we define any approach, we need to define the brands' overall goal. We then need to dive.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CLIENT SLIDER -->
+
+		<!-- FOOTER -->
+		<footer class="_foter_drm_trvl_sec">
+			<div class="container">
+				<div class="_foter_drm_trvl_crd">
+					<div class="row">
+						<div class="col-12 col-md-12 col-lg-6 col-xl-6">
+							<div class="_foter_drm_trvl_crd_lft">
+								<h1 class="_foter_drm_trvl_crd_h1">
+									Get our pro offers 
+								</h1>
+								<p class="_foter_drm_trvl_crd_txt">
+									Create a visual identity for your company, and an overall brand
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-6 col-xl-6" style="align-self: flex-end;">	
+							<div class="_foter_drm_trvl_crd_r8">
+								<div class="_foter_drm_trvl_crd_inpt">
+									<input type="text" placeholder="Type your email here">
+									<button class="_foter_drm_trvl_crd_btn">
+										Subscribe
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-12 col-lg-4 col-xl-4">
+						<div class="_foter_drm_trvl_lft">
+							<div class="_foter_drm_trvl_logo">
+								<a href="">
+									<img src="assets/img/trvl_agncy_logo.svg" alt="image">
+								</a>
+							</div>
+							<p class="_foter_drm_trvl_txt">
+								There are many variations of passages of available
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-4 col-xl-4">
+						<div class="_foter_drm_trvl_mdl">
+							<ul class="_foter_drm_trvl_mdl_ul">
+								<li>
+									<a href="">
+										<div class="_foter_drm_trvl_icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+											  <path fill="#1778F2" d="M10.797 15.644v-5.353h1.797l.27-2.086h-2.067V6.873c0-.604.168-1.015 1.034-1.015h1.105V3.992a14.808 14.808 0 00-1.61-.082c-1.592 0-2.683.972-2.683 2.758v1.537H6.842v2.086h1.801v5.353h2.154z"/>
+											</svg>
+										</div>
+										Facebook
+									</a>           
+								</li>          
+								<li>          
+									<a href="">
+										<div class="_foter_drm_trvl_icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+											  <path fill="#0A7BBA" d="M15.974 10.805v4.123h-2.39V11.08c0-.966-.345-1.625-1.21-1.625-.66 0-1.053.444-1.226.874-.064.153-.08.367-.08.583v4.015h-2.39s.032-6.515 0-7.19h2.39v1.02l-.015.023h.015v-.023c.318-.49.885-1.189 2.155-1.189 1.573 0 2.751 1.028 2.751 3.236zM6.178 4.273c-.818 0-1.353.537-1.353 1.242 0 .69.519 1.242 1.321 1.242h.015c.834 0 1.353-.551 1.353-1.242-.016-.705-.519-1.242-1.336-1.242zm-1.21 10.655h2.388v-7.19H4.967v7.19z"/>
+											</svg>
+										</div>
+										Linkedin 
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="_foter_drm_trvl_icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+											  <path fill="#55ACEE" d="M16.125 7.187c-.428.19-.89.318-1.373.376a2.397 2.397 0 001.051-1.322 4.784 4.784 0 01-1.517.58A2.39 2.39 0 0010.213 9a6.785 6.785 0 01-4.927-2.498 2.39 2.39 0 00.74 3.191 2.373 2.373 0 01-1.083-.299v.03c0 1.159.824 2.125 1.917 2.344a2.382 2.382 0 01-1.08.042 2.393 2.393 0 002.233 1.66 4.796 4.796 0 01-3.538.99 6.76 6.76 0 003.663 1.073c4.397 0 6.801-3.642 6.801-6.8 0-.104-.002-.208-.007-.31a4.847 4.847 0 001.193-1.237z"/>
+											</svg>
+										</div>
+										Twitter
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="_foter_drm_trvl_icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+											  <path fill="#CC2127" d="M7.033 19.472c.411-.665 1.01-1.734 1.23-2.595l.626-2.369c.321.623 1.276 1.148 2.288 1.148 3.013 0 5.186-2.762 5.186-6.197 0-3.295-2.7-5.754-6.165-5.754-4.321 0-6.61 2.885-6.61 6.025 0 1.467.783 3.278 2.034 3.86.19.09.296.05.337-.13l.096-.388.184-.744a.295.295 0 00-.066-.287c-.411-.5-.74-1.418-.74-2.27 0-2.197 1.67-4.32 4.518-4.32 2.46 0 4.181 1.664 4.181 4.05 0 2.688-1.366 4.556-3.144 4.556-.98 0-1.72-.81-1.481-1.803.102-.423.237-.857.368-1.28.238-.765.463-1.49.463-2.04 0-.762-.412-1.401-1.268-1.401-1.004 0-1.81 1.033-1.81 2.418 0 .877.296 1.475.296 1.475s-.988 4.172-1.169 4.951c-.197.86-.123 2.071-.033 2.858.223.087.449.166.68.237z"/>
+											</svg>
+										</div>
+										 Pinterest
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-4 col-xl-4 _foter_drm_trv_r81" style="display: flex;justify-content: flex-end;">
+						<div class="_foter_drm_trvl_r8">
+							<p class="_foter_drm_trvl_titl">
+								Recent Post
+							</p>
+							<p class="_foter_drm_trvl_txt">
+								Top 5 Himalayan Treks
+							</p>
+							<p class="_foter_drm_trvl_txt">
+								May 17,2021
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER -->        
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+		<script src="assets/js/glide.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>
